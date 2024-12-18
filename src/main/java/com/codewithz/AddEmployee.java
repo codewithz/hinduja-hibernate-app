@@ -19,11 +19,11 @@ public class AddEmployee {
             Transaction tx=session.beginTransaction();
 
             Employee employee=new Employee();
-            employee.setName("JOhn");
+            employee.setName("John");
             employee.setSalary(9000);
             employee.setDept("HR");
             employee.setDesignation("Manager");
-            employee.setDateOfJoin(new Date(2021, Calendar.DECEMBER,19));
+            employee.setDateOfJoin(new Date(2020, Calendar.DECEMBER,19));
 
             session.save(employee);
             tx.commit();
