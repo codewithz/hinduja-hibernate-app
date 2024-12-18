@@ -1,5 +1,5 @@
 package com.codewithz;
-
+//9.2
 import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
